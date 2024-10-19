@@ -3,30 +3,64 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Simple Webpage</title>
+    <title>I Love You</title>
+    <link rel="stylesheet" href="styles.css">
     <style>
         body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
+            font-family: 'Arial', sans-serif;
             margin: 0;
-            padding: 20px;
-        }
-        h1 {
+            padding: 0;
+            background-color: #f9f9f9;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            text-align: center;
             color: #333;
         }
+        h1 {
+            font-size: 50px;
+            margin: 0;
+            color: #e63946;
+        }
         p {
+            font-size: 24px;
+            margin: 20px 0;
+        }
+        footer {
+            position: absolute;
+            bottom: 20px;
+            width: 100%;
+            text-align: center;
+            font-size: 16px;
             color: #666;
         }
-#foo {
-  position: relative;
-}
-#foo:hover {
-  top: 5em;
-}
+        a {
+            color: #007BFF;
+            text-decoration: none;
+        }
+
+img {
+            max-width: 100%; /* Responsive */
+            height: auto;
+            border-radius: 10px;
+        }
     </style>
 </head>
 <body>
-    <h1>Button that moves when you try to click it</h1>
-<button id="foo">Click me!</button>
+
+    <div>
+        <h1>I Love You</h1>
+        <p>To the moon and back.</p>
+        <p>You're my everything!</p>
+	<img src="images/x.jpeg" alt="A beautiful scenery">
+
+      <!--  <a href="mailto:mark.madrona@psionline.com?subject=Hello&body=I%20love%20you!" class="email-button">Send Email</a> -->
+ <button onclick="window.location.href='takeyouout.html';">Go to Local Page</button>
+
+    <footer>
+        <p>&copy; 2024 Your Name</p>
+    </footer>
+
 </body>
 </html>
